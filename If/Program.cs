@@ -81,46 +81,36 @@ namespace If
             //}
 
 
-            //Console.WriteLine("Introduce un numero para averiguar el dia de la semana");
-
-            //int dia = Convert.ToInt32(Console.ReadLine());
-
-            //switch (dia)
-
-            //{
-
-            //    case 0: Console.WriteLine("Lunes");
-            //            break;
-
-            //    case 1:
-            //         Console.WriteLine("Martes");
-            //         break;
-
-            //    case 2:
-            //        Console.WriteLine("Miercoles");
-            //        break;
-
-            //    case 3:
-            //        Console.WriteLine("Jueves");
-            //        break;
-            //    case 4:
-            //        Console.WriteLine("Viernes");
-            //        break;
-
-            //    case 5:
-            //        Console.WriteLine("Sabado");
-            //        break;
-
-            //    case 6:
-            //        Console.WriteLine("Domingo");
-            //        break;
-
-            //    default:
-            //        Console.WriteLine("Valor Incorrecto");
-            //        break;
 
 
-            }
+            //OPERADORES DE ASIGNACION COMPUESTOS
+
+            //variable *=40 ....Se multiplica la variable por 40
+            //variable++ ... Se le suma uno mas
+            //variable-- .... Se le resta uno mas
+            //variable /=40 ...Se divide entre 40
+
+
+
+
+            String texto = "Soy un programador";
+            Console.WriteLine(texto);
+            texto += "de C#";
+            Console.WriteLine(texto);
+
+            string texto2 = " y .NET";
+            texto += texto2;
+            Console.WriteLine(texto2);
+
+
+
+
+
+
+            Console.ReadLine();
+
+
+            
 
 
 
